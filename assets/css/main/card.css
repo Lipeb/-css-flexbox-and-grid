@@ -1,0 +1,10 @@
+.card {
+    background-color: #2C343A;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.card--destaque {
+    margin-bottom: 16px;
+}
