@@ -1,0 +1,6 @@
+.card__link {
+    color: #0480DC;
+    font-size: 0.8rem;
+    font-weight: 600;
+    justify-self: flex-end;
+}

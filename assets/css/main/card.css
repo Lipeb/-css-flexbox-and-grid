@@ -8,3 +8,13 @@
 .card--destaque {
     margin-bottom: 16px;
 }
+
+.card--recents {
+    align-items: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 16px;
+    row-gap: 24px;
+    width: 256px;
+}
