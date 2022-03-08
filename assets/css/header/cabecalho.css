@@ -6,3 +6,16 @@
     justify-content: space-between;
     padding: 8px 16px;
 }
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        background-color: #1D232A;
+        box-sizing: border-box;
+        column-gap: 32px;
+        display: grid;
+        grid-column: 2;
+        grid-template-columns: 1fr auto;
+        height: 80px;
+        padding: 16px 60px;
+    }
+}

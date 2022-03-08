@@ -14,7 +14,20 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: auto auto;
+    grid-column: auto;
     padding: 16px;
     row-gap: 24px;
     width: 256px;
+}
+
+@media screen and (min-width: 1440px) {
+    .cartao--recentes {
+        align-items: center;
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 16px;
+        row-gap: 24px;
+        width: 256px;
+    }
 }
