@@ -1,0 +1,32 @@
+.cabecalho__perfil {
+    display: none;
+}
+
+.cabecalho__perfil {
+    align-items: center;
+    border-right: 1px solid #95999C;
+    color: #95999C;
+    column-gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-self: flex-end;
+    padding: 8px 32px;
+}
+
+.cabecalho__perfil::before {
+    background-image: url(../img/profile_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.cabecalho__perfil::after {
+    content: "\e90d";
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+

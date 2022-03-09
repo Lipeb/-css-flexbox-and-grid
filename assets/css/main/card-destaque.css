@@ -1,3 +1,9 @@
-.card__destaque {
-    grid-column: span 2;
-}   
+@media screen and (min-width: 1440px) {
+    .card--destaque {
+        margin-bottom: 0;
+    }
+}
+
+.card--destaque {
+    margin-bottom: 16px;
+}
