@@ -1,0 +1,12 @@
+.card__imagem--desktop {
+    display: block;
+}
+
+.card__imagem--mobile {
+    display: none;
+}
+
+.card__botao--destaque {
+    grid-column: auto;
+    padding: 16px 8px;
+}

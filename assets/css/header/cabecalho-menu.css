@@ -1,0 +1,4 @@
+.cabecalho__menu ::before {
+    content: "\e904";
+    font-size: 24px;
+}
